@@ -31,7 +31,8 @@ wait = None
 def send_email(unsuccessful_list):
     msg = email.message.EmailMessage()
 
-    msg.set_content(Config.email_message % (", ".join(unsuccessful_list)))
+    email_body_template = 'You\'ve successfully enrolled in all but the following classes:\n%s'
+    msg.set_content(email_body_template % (", ".join(unsuccessful_list)))
     msg['Subject'] = Config.email_subject
 
     msg['From'] = Config.email_username
