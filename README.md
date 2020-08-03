@@ -1,4 +1,4 @@
-# enroll-in-tigerhub-courses
+# Enroll in Tigerhub Courses
 Automatically enrolls in the courses you've sent to the queue on TigerHub.
 
 Uses Selenium and the Chrome web driver to automatically enroll in classes at Princeton's horrendous 7:30am scheduled time (or whatever draconian time they happen to set this year).
