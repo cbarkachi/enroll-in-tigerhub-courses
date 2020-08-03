@@ -1,7 +1,7 @@
 # Enroll in Tigerhub Courses
 Automatically enrolls in the courses you've sent to the queue on TigerHub.
 
-Uses Selenium and the Chrome web driver to automatically enroll in classes at Princeton's horrendous 7:30am scheduled time (or whatever draconian time they happen to set this year).
+Uses Selenium and the Chrome web driver to automatically enroll in classes at Princeton's horrendously scheduled 7:30am time (or whatever draconian time they happen to set this year).
 
 I've added the latest Windows version of the web driver to the path but you should probably update to the latest version [here](https://chromedriver.chromium.org/downloads).
 
