@@ -18,6 +18,6 @@ class Config:
     smtp_host = 'smtp.gmail.com'
     smtp_port = 587
 
-    # Time settings
+    # /Time settings/
     # From Python docs: datetime(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
     enroll_time = datetime(2020, 8, 3, 7, 30)
