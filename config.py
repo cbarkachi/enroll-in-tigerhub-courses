@@ -5,6 +5,7 @@ class Config:
     # /Selenium settings/
 
     # The path below is for Windows. Modify accordingly for Mac.
+    # https://www.howtogeek.com/255653/how-to-find-your-chrome-profile-folder-on-windows-mac-and-linux/#:~:text=The%20location%20for%20Chrome's%20default,Support%2FGoogle%2FChrome%2FDefault
     chrome_path = r"C:\Users\[YOUR USERNAME]\AppData\Local\Google\Chrome\User Data"
 
     # /Email Settings/
